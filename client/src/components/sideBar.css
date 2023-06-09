@@ -1,0 +1,60 @@
+
+#sideBarWrapper{
+    background-color: #1DA6A8;
+    width: 100%;
+    padding-top: 8.5%;
+    box-shadow: 2px 2px 10px 0.01px gray;
+    overflow: hidden;
+}
+
+#sideBarWrapper > #row1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* background-color: red; */
+}
+
+#sideBarWrapper > #row1 > center > img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#sideBarWrapper > #row2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* background-color: blue; */
+}
+
+#sideBarWrapper > #row2 > center > p{
+    color: white;
+}
+
+#sideBarWrapper > #row3{
+    padding-top: 16%;
+    padding-bottom: 5%;
+    /* background-color: violet; */
+}
+
+#sideBarWrapper > #row3 > center > button{
+    background-color: #054B4D;
+    color: wheat;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    margin-bottom: 0.1%;
+    cursor: pointer;
+    transition: background-color;
+    transition-duration: 0.4s;
+
+}
+
+#sideBarWrapper > #row3 > center > button:hover{
+    background-color: #032a2b;
+}
+
+#sideBarWrapper > #row3 > center > button:last-child{
+    margin-bottom: 5%;
+}

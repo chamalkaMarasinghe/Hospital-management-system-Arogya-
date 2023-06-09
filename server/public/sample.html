@@ -1,0 +1,62 @@
+
+        <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>My HTML File</title>
+                    <style>
+                        #customers {
+                        font-family: Arial, Helvetica, sans-serif;
+                        border-collapse: collapse;
+                        width: 100%;
+                        }
+
+                        #customers td, #customers th {
+                        border: 1px solid #ddd;
+                        padding: 8px;
+                        }
+
+                        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+                        #customers tr:hover {background-color: #ddd;}
+
+                        #customers th {
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        text-align: left;
+                        background-color: #04AA6D;
+                        color: white;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <table id="customers">
+                        <tr>
+                            <th>Name</th>
+                            <th>Company</th>
+                            <th>Description</th>
+                            <th>Dosage</th>
+                            <th>Quantity</th>
+                            <th>Man.Date</th>
+                            <th>Exp.Date</th>
+                        </tr>
+                        <tr key={0>
+                                        <td data-th="category">Amoxillian</td>
+                                        <td data-th="itemNumber">SPMC</td>
+                                        <td data-th="wardNumber">Antibiotic</td>
+                                        <td data-th="wardNumber">5.43</td>
+                                        <td data-th="wardNumber">30</td>
+                                        <td data-th="wardNumber">2022.02.21</td>
+                                        <td data-th="wardNumber">2023.04.13</td>
+                                    </tr>,<tr key={1>
+                                        <td data-th="category">Azithroz</td>
+                                        <td data-th="itemNumber">IOC</td>
+                                        <td data-th="wardNumber">Antibiotic</td>
+                                        <td data-th="wardNumber">2.5</td>
+                                        <td data-th="wardNumber">1000</td>
+                                        <td data-th="wardNumber">2021.10.15</td>
+                                        <td data-th="wardNumber">2022.05.03</td>
+                                    </tr>
+                    </table>
+                </body>
+            </html>
+        

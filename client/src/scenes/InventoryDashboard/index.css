@@ -1,0 +1,286 @@
+
+/* layout styling */
+
+i:hover{
+    cursor: pointer;
+}
+
+#colourRibbon{
+    padding-top: 1.5%;
+    background-color: #1DA6A8;
+}
+
+#secondaryHeader{
+    display: flex;
+    background-color: #F1EFEF;
+    box-shadow: inset 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+#secondaryHeader > #col1{
+    width: 15%;
+    text-align: center;
+}
+
+#secondaryHeader > #col2{
+
+    width: 70%;
+    text-align: center;
+}
+
+#secondaryHeader > #col2 > p{
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#secondaryHeader > #col3{
+    width: 15%;
+    text-align: center;
+}
+
+#physicalAsset-flex-container {
+    display: flex;
+}
+
+#physicalAsset-flex-container > #col1{
+    width: 20%;
+}
+
+#physicalAsset-flex-container > #col1 > #expandBtn{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 17%;
+}
+
+#physicalAsset-flex-container > #col2{
+    width: 80%;
+    max-height: 625px;
+    overflow-x: hidden;
+}
+
+/* table styling*/
+
+#physicalAsset-flex-container > #col2 > .container {
+  margin: 5% auto;
+  width: 95%;
+  background-color: #011617;
+  border-radius: 5px;
+  max-height: 500px;
+  overflow-x: hidden;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+
+#physicalAsset-flex-container > #col2 > .container > p {
+  color: rgba(255, 255, 255, .8);
+  text-transform: uppercase;
+  line-height: 1.375;
+  margin-left: 5%;
+  margin-top: 3%;
+  letter-spacing: 1px
+}
+
+.physicalAssetTablesSearchBar{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 5px 16px;
+    border-radius: 5px;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table {
+  width: 100%;
+  min-width: 300px;
+  background-color: #20262e;
+  color: #fff;
+  overflow: hidden;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table tr:nth-child(even) {
+  background-color: rgb(46, 53, 62);
+}
+
+#physicalAsset-flex-container > #col2 > .container > table th,
+#physicalAsset-flex-container > #col2 > .container > table td:before {
+  color: #28b1de;
+  font-size: 70%;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table th {
+  display: none;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table th,
+#physicalAsset-flex-container > #col2 > .container > table td {
+  margin: .5rem 2rem;
+  text-align: left;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table td {
+  display: block;
+  font-size: 70%;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table td:first-child {
+  padding-top: 1rem;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table td:last-child {
+  padding-bottom: 1rem;
+}
+
+#physicalAsset-flex-container > #col2 > .container > table td:before {
+  content: attr(data-th);
+  font-weight: bold;
+  min-width: 8rem;
+  display: inline-block;
+}
+
+#physicalAsset-flex-container > #col2 > #buttonPallete-1 > center > button,
+#physicalAsset-flex-container > #col2 > #buttonPallete-2 > center > button,
+#secondaryHeader > #col3 > button
+{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #054B4D;
+    margin-right: 2%;
+    width: 20%;
+    cursor: pointer;
+    transition: background-color;
+    transition-duration: 0.4s;
+}
+
+#secondaryHeader > #col3 > button{
+    width: 60%;
+    margin: 5% auto;
+}
+
+#physicalAsset-flex-container > #col2 > #buttonPallete-2 > center > button{
+    margin-bottom: 5%;
+}
+
+#physicalAsset-flex-container > #col2 > #buttonPallete-1 > center > button:hover,
+#physicalAsset-flex-container > #col2 > #buttonPallete-2 > center > button:hover,
+#secondaryHeader > #col3 > button:hover
+{
+    background-color: #032a2b;
+}
+
+@media(max-width: 1060px){
+    #physicalAsset-flex-container > #col1{
+        margin-left: -17%;
+    }
+    #physicalAsset-flex-container > #col2{
+        width: 130%;
+    }
+
+}
+
+@media(max-width: 850px){
+    .physicalAssetTablesSearchBar{
+        width: 60%;
+    }
+    #physicalAsset-flex-container > #col2 > #buttonPallete-2 > center > button,
+    #physicalAsset-flex-container > #col2 > #buttonPallete-1 > center > button{
+        width: 50%;
+    }
+}
+
+@media(min-width: 850px){
+    #physicalAsset-flex-container > #col2 > .container > table td:before {
+        display: none;
+    }
+    #physicalAsset-flex-container > #col2 > .container > table th,
+    #physicalAsset-flex-container > #col2 > .container > table td {
+        display: table-cell;
+    }
+    #physicalAsset-flex-container > #col2 > .container > table th,
+    #physicalAsset-flex-container > #col2 > .container > table td,
+    #physicalAsset-flex-container > #col2 > .container > table td:first-child,
+    #physicalAsset-flex-container > #col2 > .container > table td:last-child {
+        padding: 1.5rem 2rem;
+    }
+}
+
+
+
+#physicalAsset-flex-container > #col2 > #formWrapper{
+    background-color: #F1EFEF;
+    width: 95%;
+    margin: 3% auto;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+/* #physicalAsset-flex-container > #col2 > #formWrapper > p{
+    margin-left: 3%;
+} */
+
+/* input field stylling */
+
+#physicalAsset-flex-container > #col2 > #formWrapper > .input-container{
+    background-color: grey;
+    padding: 8px 16px;
+    width: 40%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > .input-container > input{
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: grey;
+    color: white;
+    caret-color: white;
+    cursor: pointer;
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > .input-container > select{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    /* padding: 8px 16px; */
+    width: 50%;
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > .input-container > select > option{
+    background-color: #4d4e4f;
+    padding: 40px 40px;
+    padding-top: 5%;
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > .input-container > input::placeholder{
+    color: #d7dade;
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > #buttonPallete-2{
+    margin-left: 3%;
+    margin-top: 25%;
+    
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > #buttonPallete-2 > button{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #054B4D;
+    margin-right: 4.5%;
+    width: 20%;
+    cursor: pointer;
+    transition: background-color;
+    transition-duration: 0.4s;
+}
+
+#physicalAsset-flex-container > #col2 > #formWrapper > #buttonPallete-2 > button:hover{
+    background-color: #032a2b;
+}
