@@ -1,2 +1,10 @@
 # Hospital-management-system-Arogya
-A web application that is automate the normal process of a hospital and make convenience to both patients and staff
+## Overview
+Managing doctors, patients, ambulances, lab services, pharmacies, wards, channelling services, 
+between doctor communication, employees, and inventories was the primary objective of this project. 
+The day-to-day patient management process is made simpler by this system for managing hospital 
+services. Furthermore, our technology develops from a manual, traditional approach used in the field to 
+an automated, systematic approach. We wish to improve their current paperwork by transferring their 
+current approaches and procedures to a web application that is computer-based, and we can do that with 
+the aid of authentication and authorization procedures. We are expecting to implement our system with 
+more secure and highly accuracy components.
