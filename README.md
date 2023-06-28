@@ -8,3 +8,5 @@ an automated, systematic approach. We wish to improve their current paperwork by
 current approaches and procedures to a web application that is computer-based, and we can do that with 
 the aid of authentication and authorization procedures. We are expecting to implement our system with 
 more secure and highly accuracy components.
+
+![System Overview](https://github.com/chamalkaMarasinghe/Hospital-management-system-Arogya-/blob/main/Capture.PNG)
