@@ -44,9 +44,6 @@ const EmployeeRoute = require('./routes/Employee.js')
 const PayrollRoute = require('./routes/Payroll.js')
 const AttendenceRoute = require('./routes/Attendence.js')
 const authRoutes = require('./routes/authroutes.js');
-//const incomeRoute = require('./routes/income')
-//app.use('/user', userRoute)
-//app.use('/income', incomeRoute)
 app.use('/physicalAsset', physicalAssetRoute)
 app.use('/laboratoryEquipments', laboratoryEquipmentsRoute)
 app.use('/medicine', medicineRoute)
@@ -56,14 +53,6 @@ app.use('/paitentinfor',paitentinforRoute)
 app.use('/Employee',EmployeeRoute)
 app.use('/Payment',PayrollRoute)
 app.use('/Attendence',AttendenceRoute)
-
-
-//const patientRoute = require('./routes/user.js')
-//app.use('/patient', patientRoute )
-//const FormRoute = require('./routes/requestForm.js')
-//app.use('/form',FormRoute),,
-
-// tharaka controller function.............................................................
 
 app.post("/adminLogin", async(req, res)=>{
   try {
@@ -100,19 +89,6 @@ app.post("/login-user", async (req, res) => {
     } else {
       return res.status(401).json({ message: 'Invalid email or password' });
     }
-    // if(isValidPassword){
-               
-    //   return res.json({ FirstName: user.FirstName, LastName: user.LastName,Nic: user.Nic,EmailAddress: user.EmailAddress,Address: user.Address,Gender: user.Gender,City: user.City,Dob: user.Dob,GuardianName: user.GuardianName });
-    //     } else {
-    //       return res.status(400).json({ message: 'Invalid password' });
-    //     }
-    
-  
-    // // set the user session variable
-    // req.session.user = user;
-  
-    // // return a success message
-    // res.json({ status: "ok" });
   });
 
 
@@ -182,9 +158,6 @@ app.post("/login-user", async (req, res) => {
     }
   });
   
-//end of tharaka..................................................................
-
-
 const server = http.createServer(app)
 
 //mongo setup
