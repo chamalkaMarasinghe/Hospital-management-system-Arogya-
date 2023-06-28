@@ -9,4 +9,5 @@ current approaches and procedures to a web application that is computer-based, a
 the aid of authentication and authorization procedures. We are expecting to implement our system with 
 more secure and highly accuracy components.
 
-![System Overview](https://github.com/chamalkaMarasinghe/Hospital-management-system-Arogya-/blob/main/Capture.PNG)
+## System Diagram
+![System Diagram](https://github.com/chamalkaMarasinghe/Hospital-management-system-Arogya-/blob/main/Capture.PNG)
